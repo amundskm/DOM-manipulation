@@ -10,6 +10,7 @@ container.appendChild(content);
 // Create new paragraph under content
 const para = document.createElement("p");
 para.textContent = 'Hey I\'m red!';
+para.style.color = 'red';
 content.appendChild(para);
 
 // Create new h3 header under content
